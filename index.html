@@ -69,6 +69,18 @@ button:hover {
         <p id="result"></p>
         <p class="banquyen">2024 © Bản quyền thuộc Capybara và CLB Tiếng Anh Không Chuyên</p>
     </div>
-    <script src="script.js"></script>
+    <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+  const height = document.getElementById('heightInput').value;
+  const result = document.getElementById('result');
+  
+  if (height) {
+      result.textContent = `Chiều cao của bạn là ${height} cm`;
+  } else {
+      result.textContent = 'Vui lòng nhập chiều cao!';
+  }
+});
+
+    </script>
 </body>
 </html>
