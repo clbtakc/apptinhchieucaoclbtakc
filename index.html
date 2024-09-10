@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hãy nhập chiều cao chính xác của bạn</title>
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.banquyen {
+  font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRT-38d-bvSpHHM-F7V4F163zHqqP1aAIEbA&s" alt="">
+        <h1>Hãy nhập chiều cao chính xác của bạn</h1>
+        <input type="number" id="heightInput" placeholder="Nhập chiều cao (cm)">
+        <button id="startButton">Bắt đầu</button>
+        <p id="result"></p>
+        <p class="banquyen">2024 © Bản quyền thuộc Capybara và CLB Tiếng Anh Không Chuyên</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
